@@ -74,7 +74,7 @@ http {
   server_tokens off;
 
   server {
-    listen <%= ENV["PORT"] %>;
+    listen 3000;
     server_name localhost;
 
     location / {
